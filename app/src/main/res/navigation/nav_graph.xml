@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/menu_home">
+
+    <fragment
+        android:id="@+id/menu_home"
+        android:name="com.calculadoradefaltas.HomeFragment"
+        android:label="Inicío"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/menu_settings"
+        android:name="com.calculadoradefaltas.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/calculadoraFaltasEfFragment"
+        android:name="com.calculadoradefaltas.CalculadoraFaltasEfFragment"
+        android:label="fragment_calculadora_faltas_ef"
+        tools:layout="@layout/fragment_calculadora_faltas_ef" />
+    <fragment
+        android:id="@+id/calculadoraFaltasFragment"
+        android:name="com.calculadoradefaltas.CalculadoraFaltasFragment"
+        android:label="fragment_calculadora_faltas"
+        tools:layout="@layout/fragment_calculadora_faltas" />
+    <fragment
+        android:id="@+id/menu_doacao"
+        android:name="com.calculadoradefaltas.DonationFragment"
+        android:label="DonationFragment" />
+    <fragment
+        android:id="@+id/menu_options"
+        android:name="com.calculadoradefaltas.OptionsFragment"
+        android:label="fragment_options"
+        tools:layout="@layout/fragment_options" />
+    <fragment
+        android:id="@+id/lembretFragment"
+        android:name="com.calculadoradefaltas.lembretFragment"
+        android:label="fragment_lembret"
+        tools:layout="@layout/fragment_lembret" />
+</navigation>

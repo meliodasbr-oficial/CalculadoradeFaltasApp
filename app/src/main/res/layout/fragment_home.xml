@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".HomeFragment">
+
+    <!-- Título "Início" centralizado -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Início"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Usando LinearLayout para organizar os botões verticalmente -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button_calculadora"
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_border"
+            android:drawableEnd="@drawable/calculadora"
+            android:gravity="center_vertical"
+            android:padding="20dp"
+            android:text="Calculadora de Faltas Ensino Médio"
+
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_calculadora_fundamental"
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:drawableEnd="@drawable/calculadora"
+            android:gravity="center_vertical"
+            android:padding="20dp"
+            android:text="Calculadora de Faltas Ensino Fundamental"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</FrameLayout>

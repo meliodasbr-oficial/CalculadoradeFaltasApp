@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doação"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajuda-me com sua doação"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/donation"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Texto sobre você -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ao fazer uma doação de qualquer valor, você se torna parte da jornada de desenvolvimento contínuo de nossos aplicativos e sites e de outros que estão por vir. Sua ajuda não apenas garante atualizações regulares e melhorias, mas também possibilita a criação de novos aplicativos e sites que podem fazer a diferença na vida de muitas pessoas. Vamos construir algo incrível juntos e transformar ideias em realidade!"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:justificationMode="inter_word"/>
+
+        <!-- QR Code -->
+        <ImageView
+            android:id="@+id/qrCodeImage"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:src="@drawable/zeroum"
+            android:contentDescription="QR Code para doações"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Pix Copia e Cola -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pix Copia e Cola"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/pixCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00020126330014br.gov.bcb.pix0111141935946025204000053039865802BR5925RICHARD AGHAMENON MOURA D6009Sao Paulo62070503***630422E0"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:background="@drawable/text_bg"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="18dp" />
+
+        <!-- Botão de copiar -->
+        <Button
+            android:id="@+id/copyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copiar Pix"
+            android:drawableLeft="@drawable/file_copy_2_fill"
+            android:background="@drawable/button_background"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center" /> <!-- Adicionando layout_gravity para centralizar o botão -->
+
+    </LinearLayout>
+</ScrollView>

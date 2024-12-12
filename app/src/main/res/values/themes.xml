@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.CalculadoraDeFaltas" parent="Theme.Design.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/blue_dark</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue_dark</item>
+        <item name="colorAccent">@color/blue_accent</item>
+        <item name="android:popupBackground">@color/white</item>
+        <item name="alertDialogStyle">@style/CustomAlertDialog</item>
+    </style>
+</resources>

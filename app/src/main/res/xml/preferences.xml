@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Título Tema -->
+    <PreferenceCategory android:title="Tema">
+        <!-- Modo Escuro -->
+        <SwitchPreferenceCompat
+            android:key="dark_mode"
+            android:title="Modo Escuro"/>
+    </PreferenceCategory>
+
+    <!-- Acesso ao Suporte -->
+    <PreferenceCategory android:title="Acesso ao Suporte">
+        <Preference
+            android:key="help_support"
+            android:title="Ajuda e Suporte" />
+        <Preference
+            android:key="user_feedback"
+            android:title="Seu Feedback" />
+        <Preference
+            android:key="user_feedbacks"
+            android:title="Feedback dos Usuários" />
+    </PreferenceCategory>
+
+    <!-- Configurações de Privacidade -->
+    <PreferenceCategory android:title="Configurações de Privacidade">
+        <Preference
+            android:key="privacy_policy"
+            android:title="Política de Privacidade" />
+    </PreferenceCategory>
+
+    <!-- Atualização do Aplicativo -->
+    <PreferenceCategory android:title="Atualização do Aplicativo">
+        <Preference
+            android:key="release_notes"
+            android:title="Notas de Versão" />
+    </PreferenceCategory>
+
+    <!-- Sobre o Aplicativo -->
+    <PreferenceCategory android:title="Sobre o Aplicativo">
+        <Preference
+            android:key="developer_info"
+            android:title="Informações do Desenvolvedor" />
+        <Preference
+            android:key="terms_of_use"
+            android:title="Termos de Uso" />
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Estilo do AlertDialog para o Tema Claro -->
+    <style name="CustomAlertDialog" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:background">@color/white</item> <!-- Fundo branco -->
+        <item name="android:textColorPrimary">@color/black</item> <!-- Texto preto -->
+        <item name="colorAccent">@color/black</item> <!-- Cor dos botões -->
+    </style>
+
+    <!-- Estilo do AlertDialog para o Tema Escuro -->
+    <style name="CustomAlertDialog.Dark" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:background">@color/black</item> <!-- Fundo preto -->
+        <item name="android:textColorPrimary">@color/white</item> <!-- Texto branco -->
+        <item name="colorAccent">@color/white</item> <!-- Cor dos botões -->
+    </style>
+</resources>
